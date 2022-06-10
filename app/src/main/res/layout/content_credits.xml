@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waves"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <TextView
+        android:id="@+id/idURLGameBackGround"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="68dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="@string/shorturl_at_lvwdn"
+        android:textColor="#000000"
+        android:textColorLink="#DF1616"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/IdCreditBubble"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idURLGolden"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="124dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="@string/shorturl_at_bdgt1"
+        android:textColor="#000000"
+        android:textColorLink="#DF1616"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/IdCreditBubble"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idURLOil"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="180dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="@string/shorturl_at_fcl16"
+        android:textColor="#000000"
+        android:textColorLink="#DF1616"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/IdCreditBubble"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idURLWaves"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="300dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="@string/shorturl_at_ajh27"
+        android:textColor="#000000"
+        android:textColorLink="#DF1616"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/IdCreditBubble"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idURLUSD"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="248dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="@string/shorturl_at_mwikm"
+        android:textColor="#000000"
+        android:textColorLink="#DF1616"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/IdCreditBubble"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idCreditTitle"
+        android:layout_width="222dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="436dp"
+        android:gravity="center"
+        android:text="@string/credits"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/IdCreditBubble"
+        android:layout_width="358dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/bubble_left_png_amp_bubble_right_png"
+        android:textColor="#F2F2F2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idCreditGameBackground"
+        android:layout_width="358dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/game_background_jpg"
+        android:textColor="#F2F2F2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idCreditWaves"
+        android:layout_width="358dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="312dp"
+        android:text="@string/waves_jpg"
+        android:textColor="#F2F2F2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idCreditUSD2"
+        android:layout_width="358dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="248dp"
+        android:text="@string/usd_jpg"
+        android:textColor="#F2F2F2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idCreditOil2"
+        android:layout_width="358dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="184dp"
+        android:text="@string/oil_jpg"
+        android:textColor="#F2F2F2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idCreditGolden2"
+        android:layout_width="358dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="124dp"
+        android:text="@string/golden_oil_jpg"
+        android:textColor="#F2F2F2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/IdURLBubble"
+        android:layout_width="297dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="@string/shorturl_at_benxz"
+        android:textColor="#000000"
+        android:textColorLink="#DF1616"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/IdCreditBubble"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

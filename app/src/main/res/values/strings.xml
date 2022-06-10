@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">"My App"</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_game">game</string>
+    <string name="offshore_oil_spotting">Offshore Oil Spotting</string>
+    <string name="skip">Skip</string>
+    <string name="todo">TODO</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+    <string name="play_game">Play Game</string>
+    <string name="title_activity_option">Option</string>
+    <string name="title_activity_help">Help</string>
+    <string name="board_size">Board Size</string>
+    <string name="oil_barrels"># Oil Barrels</string>
+    <string name="you_are_going_to_be_very_rich_beware">YOU ARE GOING TO BE VERY RICH! BEWARE!</string>
+    <string name="information">Information</string>
+    <string-array name="sizes">
+        <item>4 x 6</item>
+        <item>5 x 10</item>
+        <item>6 x 15</item>
+    </string-array>
+    <string-array name="quantity">
+        <item>6</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    <string name="title_activity_credits">Credits</string>
+    <string name="usd_jpg">usd.jpg:</string>
+    <string name="bubble_left_png_amp_bubble_right_png"><![CDATA[bubble_left.png & bubble_right.png:]]></string>
+    <string name="game_background_jpg">game_background.jpg:</string>
+    <string name="shorturl_at_lvwdn">shorturl.at/lvwDN</string>
+    <string name="shorturl_at_bdgt1">shorturl.at/bdgT1</string>
+    <string name="golden_oil_jpg">golden_oil.jpg:</string>
+    <string name="shorturl_at_fcl16">shorturl.at/fCL16</string>
+    <string name="oil_jpg">oil.jpg:</string>
+    <string name="waves_jpg">waves.jpg:</string>
+    <string name="shorturl_at_ajh27">shorturl.at/ajH27</string>
+    <string name="shorturl_at_benxz">shorturl.at/beNXZ</string>
+    <string name="shorturl_at_mwikm">shorturl.at/mwIKM</string>
+    <string name="credits">Credits</string>
+    <string name="the_objective_of_the_game_is_to_find_all_the_hidden_oil_barrels_hidden_underneath_if_you_can_t_find_one_you_will_be_provided_a_hint_showing_you_if_there_are_any_hidden_barrels_laying_in_your_row_and_column_you_may_also_find_a_hint_by_pressing_on_a_found_barrel_try_and_find_using_few_hints_as_possible">The objective of the game is to find all the hidden oil barrels hidden underneath. If you can\'t find one, you will be provided a hint, showing you if there are any hidden barrels laying in your row and column. You may also find a hint by pressing on a found barrel. Try and find using few hints as possible.</string>
+</resources>
